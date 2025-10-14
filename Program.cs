@@ -134,7 +134,6 @@ public class Game {
         
         canvas.SetPixel(apple.x, apple.y, Color.Red);
 
-        AnsiConsole.Clear();
 
         AnsiConsole.Write(new Markup("[green]Snake[/]").Centered());
         AnsiConsole.Write(canvas);
