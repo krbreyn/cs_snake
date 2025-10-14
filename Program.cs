@@ -91,6 +91,7 @@ public class Game {
         Console.CursorVisible = true;
         // AnsiConsole.Clear();
         AnsiConsole.MarkupLine("[green]Thanks for playing![/]");
+        AnsiConsole.MarkupLine($"[yellow]Your score was: {player.Body.Count - 3}.[/]");
     }
 
     private IRenderable CreateDisplay() {
